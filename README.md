@@ -1,5 +1,7 @@
 # medusa-fulfillment-shiprocket
 
+[![Node.js Package](https://github.com/ikushaldave/medusa-fulfillment-shiprocket-fix/actions/workflows/npm-publish.yml/badge.svg?branch=main)](https://github.com/ikushaldave/medusa-fulfillment-shiprocket-fix/actions/workflows/npm-publish.yml)
+
 W.I.P. Shiprocket fulfillment plugin for MedusaJS
 
 This plugin is inspired by Medusa's Official [Webshipper Plugin](https://github.com/medusajs/medusa/tree/cab5821f55cfa448c575a20250c918b7fc6835c9/packages/medusa-fulfillment-webshipper)
