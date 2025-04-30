@@ -8,8 +8,10 @@ import {
   reverseOrder,
   processShipmentData,
 } from "../helpers";
+import { Lifetime } from "awilix";
 
 class ShiprocketFulfillmentService extends AbstractFulfillmentService {
+  static LIFE_TIME = Lifetime.TRANSIENT;
   static identifier = "shiprocket";
 
   constructor(
