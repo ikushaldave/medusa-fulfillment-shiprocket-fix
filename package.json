@@ -3,6 +3,7 @@
   "version": "0.1.7",
   "description": "Shiprocket fulfillment plugin for MedusaJS",
   "author": "Kushal Dave",
+  "main": "dist",
   "license": "MIT",
   "keywords": [
     "medusa",
@@ -15,7 +16,8 @@
   "scripts": {
     "prepare": "cross-env NODE_ENV=production yarn run build",
     "build": "babel src --out-dir ./dist --ignore **/__tests__ --extensions \".ts,.js\"",
-    "watch": "babel -w src --out-dir ./dist --ignore **/__tests__ --extensions \".ts,.js\""
+    "watch": "babel -w src --out-dir ./dist --ignore **/__tests__ --extensions \".ts,.js\"",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "axios": "^1.7.4",
