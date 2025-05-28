@@ -11,7 +11,7 @@ import {
 import { Lifetime } from "awilix";
 
 class ShiprocketFulfillmentService extends AbstractFulfillmentService {
-  static identifier = "shiprocket";
+  static identifier = "fp_shiprocket";
   static LIFE_TIME = Lifetime.TRANSIENT;
 
   constructor(
