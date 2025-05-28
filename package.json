@@ -1,6 +1,6 @@
 {
   "name": "medusa-fulfillment-shiprocket-fix",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Shiprocket fulfillment plugin for MedusaJS",
   "author": "Kushal Dave",
   "license": "MIT",
